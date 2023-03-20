@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">836239946911-gegkha6mbbh8g79a87aubqnap945bm5g.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">836239946911</string>
+    <string name="google_api_key" translatable="false">AIzaSyCpFVxALZkcN02PsUxJYl-fJaNZiWPwrgg</string>
+    <string name="google_app_id" translatable="false">1:836239946911:android:2ae3f210b4bb4e450cdeaa</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCpFVxALZkcN02PsUxJYl-fJaNZiWPwrgg</string>
+    <string name="google_storage_bucket" translatable="false">flutter-instagram-clone-d402d.appspot.com</string>
+    <string name="project_id" translatable="false">flutter-instagram-clone-d402d</string>
+</resources>
