@@ -125,32 +125,23 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 const SizedBox(height: 24),
                 //Text field input for username
                 TextFieldInput(
-                    textEditingController: _usernameController,
-                    hintText: "Enter your username",
-                    textInputType: TextInputType.text),
-
+                    textEditingController: _emailController,
+                    hintText: "Email",
+                    textInputType: TextInputType.emailAddress),
                 const SizedBox(height: 24),
                 //Text field input for email
                 TextFieldInput(
-                    textEditingController: _emailController,
-                    hintText: "Enter your email",
-                    textInputType: TextInputType.emailAddress),
+                    textEditingController: _usernameController,
+                    hintText: "Username",
+                    textInputType: TextInputType.text),
                 //Text filed input for password
                 const SizedBox(height: 24),
-
                 TextFieldInput(
                   textEditingController: _passwordController,
-                  hintText: "Enter your password",
+                  hintText: "Password",
                   textInputType: TextInputType.text,
                   isPass: true,
                 ),
-                const SizedBox(height: 24),
-                //Text field input for bio
-                TextFieldInput(
-                    textEditingController: _bioController,
-                    hintText: "Enter your bio",
-                    textInputType: TextInputType.text),
-
                 const SizedBox(height: 24),
                 //Button Login
                 InkWell(

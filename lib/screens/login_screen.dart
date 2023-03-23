@@ -90,14 +90,14 @@ class _LoginScreenState extends State<LoginScreen> {
             //Text filed input for email
             TextFieldInput(
                 textEditingController: _emailController,
-                hintText: "Enter your email",
+                hintText: "Email",
                 textInputType: TextInputType.emailAddress),
             //Text filed input for password
             const SizedBox(height: 24),
 
             TextFieldInput(
               textEditingController: _passwordController,
-              hintText: "Enter your password",
+              hintText: "Password",
               textInputType: TextInputType.text,
               isPass: true,
             ),
@@ -112,7 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           color: primaryColor,
                         ),
                       )
-                    : const Text("Login"),
+                    : const Text("Sign In"),
                 width: double.infinity,
                 alignment: Alignment.center,
                 padding: const EdgeInsets.symmetric(vertical: 12),
