@@ -133,14 +133,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 //Text field input for email
                 TextFieldInput(
                     textEditingController: _emailController,
-                    hintText: "Enter your email",
+                    hintText: "Email",
                     textInputType: TextInputType.emailAddress),
                 //Text filed input for password
                 const SizedBox(height: 24),
 
                 TextFieldInput(
                   textEditingController: _passwordController,
-                  hintText: "Enter your password",
+                  hintText: "Password",
                   textInputType: TextInputType.text,
                   isPass: true,
                 ),
